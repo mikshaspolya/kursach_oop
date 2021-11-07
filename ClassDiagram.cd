@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AuthorizationDTO">
+    <Position X="15" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAQABAAAAAAgAAAAAAAAAAAAAAAAAAAAAggAAEAA=</HashCode>
+      <FileName>AuthorizationDTO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseDAO&lt;T&gt;">
+    <Position X="5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseDAO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseService&lt;T&gt;">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseService.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Car">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASGAAAAACASAAIAAAAAgAAAAIAASAgCBEAgAAAgYAgA=</HashCode>
+      <FileName>Car.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarDAO">
+    <Position X="2.75" Y="8.5" Width="1.5" />
+    <InheritanceLine Type="BaseDAO&lt;T&gt;">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.435" Y="-0.243" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>CarDAO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarDTO">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASGAAAAADACAAIAAAAAgAAAAIAASAgCBEAgAAAgYAgA=</HashCode>
+      <FileName>CarDTO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarService">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="BaseService&lt;T&gt;">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.478" Y="-0.217" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>CarService.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Order">
+    <Position X="15" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAABAACAGAQAogAAAEAAAAAAEUEAABFAAQQQAYBAA=</HashCode>
+      <FileName>Order.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrderDAO">
+    <Position X="5" Y="8.5" Width="1.5" />
+    <InheritanceLine Type="BaseDAO&lt;T&gt;">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.452" Y="-0.234" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>OrderDAO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrderDTO">
+    <Position X="16.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAABAACAGAQAogAAAEAAAAAAEUEAABFAAQQQAYDAA=</HashCode>
+      <FileName>OrderDTO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrderService">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="BaseService&lt;T&gt;">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.538" Y="-0.234" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>OrderService.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RegistrationDTO">
+    <Position X="13.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBAAAAEAAAAAQAgAAAAMABgAAAAEAgAgBAAAQgJAFgA=</HashCode>
+      <FileName>RegistrationDTO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="User">
+    <Position X="16.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gBABAAEAAAAAQAgAAAAMABgAAAAEAgAgBAAAQgIAFgA=</HashCode>
+      <FileName>User.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserDAO">
+    <Position X="7.25" Y="8.5" Width="1.5" />
+    <InheritanceLine Type="BaseDAO&lt;T&gt;">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.409" Y="-0.225" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAgAAEAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserDAO.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UserService">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="BaseService&lt;T&gt;">
+      <InheritanceModifierLabel ManuallyPlaced="true">
+        <Position X="-0.461" Y="-0.208" />
+      </InheritanceModifierLabel>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAIAAAAAAgAAEAAEAAAAAAAAAEAAA=</HashCode>
+      <FileName>UserService.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Validator">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
