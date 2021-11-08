@@ -1,19 +1,23 @@
 #pragma once
-#include "Libraries.h"
+#include "BaseService.h"
+#include "OrderDTO.h"
 
-class OrderService : public BaseService<OrderService, OrderDTO>
+class OrderService : public BaseService<OrderDTO>
 {
 public:
-	static void Create();
-	static vector<OrderDTO> Read();
-	//static void Update(OrderDTO* obj);
-	static void Delete(vector<OrderDTO> orderd, int idOfOrder);
-	static OrderDTO* ReadSpecific(int id);
+	void Create(OrderDTO obj) override;
+	vector<OrderDTO> Read() override;
+	void Update(vector<OrderDTO> orders, int idOfOrder, int numOfField) override;
+	void Delete(vector<OrderDTO> orders, int idOfOrder) override;
+	OrderDTO* ReadSpecific(int id) override;
 
 	static int CountNumOfStr();
 	static int GetLastId();
 	static void UpdateLastId(int newId);
 
 	static void Print(vector<OrderDTO> orders);
+
+	ostream& printLine(ostream& stream);
+	ostream& printContent(ostream& stream);
 };
 

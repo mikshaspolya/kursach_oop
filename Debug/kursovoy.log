@@ -1,766 +1,150 @@
 ﻿  BaseService.cpp
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,31): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,23): error C2923: BaseDAO: "CarDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,16): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,28): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5,38): error C2504: BaseService: не определен базовый класс
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5,38): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(18): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "CarService<CarDTO>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,33): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,25): error C2923: BaseDAO: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,16): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,28): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(4,40): error C2504: BaseService: не определен базовый класс
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(4,40): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,32): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,24): error C2923: BaseDAO: "UserDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,16): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,28): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,40): error C2504: BaseService: не определен базовый класс
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,40): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(8,7): error C3668: OrderService::Create: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(9,19): error C3668: OrderService::Read: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(10,7): error C3668: OrderService::Update: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(11,7): error C3668: OrderService::Delete: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(12,12): error C3668: OrderService::ReadSpecific: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5,39): error C2504: BaseService: не определен базовый класс
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5,39): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(26): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "UserService<UserDTO>"
   CarDAO.cpp
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(21): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "BaseService<T1>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,32): error C2504: BaseDAO: не определен базовый класс
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,32): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,16): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,28): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(4,63): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2955: "BaseService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,31): error C2504: BaseDAO: не определен базовый класс
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,31): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,16): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,28): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.cpp(14,29): error C2955: "CarService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5): message : см. объявление "CarService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.cpp(55,29): error C2955: "CarService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5): message : см. объявление "CarService"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(5,32): error C2504: BaseDAO: не определен базовый класс
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(5,32): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,7): error C3668: OrderDAO::Create: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,19): error C3668: OrderDAO::Read: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(10,7): error C3668: OrderDAO::Update: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,31): error C2504: BaseDAO: не определен базовый класс
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,31): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,7): error C3668: UserDAO::Create: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,18): error C3668: UserDAO::Read: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(10,7): error C3668: UserDAO::Update: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
   CarService.cpp
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,31): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,23): error C2923: BaseDAO: "CarDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,16): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,28): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,33): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,25): error C2923: BaseDAO: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,16): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,28): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(4,40): error C2504: BaseService: не определен базовый класс
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(4,40): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,32): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,24): error C2923: BaseDAO: "UserDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,16): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,28): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,40): error C2504: BaseService: не определен базовый класс
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,40): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(8,7): error C3668: OrderService::Create: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(9,19): error C3668: OrderService::Read: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(10,7): error C3668: OrderService::Update: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(11,7): error C3668: OrderService::Delete: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(12,12): error C3668: OrderService::ReadSpecific: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5,39): error C2504: BaseService: не определен базовый класс
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5,39): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(26): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "UserService<UserDTO>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(6,20): error C2660: CarDAO::Create: функция не принимает 1 аргументов
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(7,14): message : см. объявление "CarDAO::Create"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(12,23): error C2440: return: невозможно преобразовать "std::vector" в "std::vector<T1,std::allocator<T1>>"
-          with
-          [
-              T1=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(12,2): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(89,21): error C2664: "void CarDAO::Update(std::vector)": невозможно преобразовать аргумент 1 из "std::vector<T1,std::allocator<T1>>" в "std::vector"
-          with
-          [
-              T1=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(89,17): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,14): message : см. объявление "CarDAO::Update"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(96,21): error C2664: "void CarDAO::Update(std::vector)": невозможно преобразовать аргумент 1 из "std::vector<T1,std::allocator<T1>>" в "std::vector"
-          with
-          [
-              T1=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(96,17): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,14): message : см. объявление "CarDAO::Update"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(173,20): error C3867: "BaseService<CarDTO>::printLine": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(177,23): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(177,71): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(177,103): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(177,137): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(177,167): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(178,41): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(178,75): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(178,113): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(184,20): error C3867: "BaseService<CarDTO>::printLine": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(190,24): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(190,59): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(190,97): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(190,135): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(191,40): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(191,81): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(191,118): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(192,54): error C3867: "BaseService<CarDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(197,21): error C3867: "BaseService<CarDTO>::printLine": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              CarDTO=CarDTO
-          ]
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(177,20): error C3867: "CarService::printLine": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(181,23): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(181,71): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(181,103): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(181,137): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(181,167): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(182,41): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(182,75): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(182,113): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(188,20): error C3867: "CarService::printLine": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(194,24): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(194,59): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(194,97): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(194,135): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(195,40): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(195,81): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(195,118): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(196,54): error C3867: "CarService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.cpp(201,21): error C3867: "CarService::printLine": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
   kursovoy.cpp
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(21): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "BaseService<T1>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,31): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,23): error C2923: BaseDAO: "CarDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,16): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,28): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,33): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,25): error C2923: BaseDAO: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,16): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,28): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(4,63): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2955: "BaseService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,32): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,24): error C2923: BaseDAO: "UserDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,16): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,28): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
   Libraries.cpp
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(21): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "BaseService<T1>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,31): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,23): error C2923: BaseDAO: "CarDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,16): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,28): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,33): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,25): error C2923: BaseDAO: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,16): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,28): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(4,63): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2955: "BaseService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,32): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,24): error C2923: BaseDAO: "UserDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,16): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,28): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
   Menu.cpp
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(21): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "BaseService<T1>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,31): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,23): error C2923: BaseDAO: "CarDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,16): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,28): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,33): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,25): error C2923: BaseDAO: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,16): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,28): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(4,63): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2955: "BaseService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,32): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,24): error C2923: BaseDAO: "UserDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,16): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,28): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(24,17): error C2955: "UserService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5): message : см. объявление "UserService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(24,17): error C2670: UserService<UserDTO>::Authorization: функция-шаблон не может преобразовать параметр 1 из типа "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(28,17): error C2955: "UserService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5): message : см. объявление "UserService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(67,17): error C2955: "UserService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5): message : см. объявление "UserService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(85,30): error C2955: "CarService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5): message : см. объявление "CarService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(87,37): error C2955: "CarService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5): message : см. объявление "CarService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(87,43): error C2440: инициализация: невозможно преобразовать "std::vector<T1,std::allocator<_Ty>>" в "std::vector<CarDTO,std::allocator<CarDTO>>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(87,23): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(150,21): error C2955: "CarService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5): message : см. объявление "CarService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(161,16): error C2955: "CarService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5): message : см. объявление "CarService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(163,16): error C2955: "CarService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5): message : см. объявление "CarService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(176,16): error C2955: "CarService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5): message : см. объявление "CarService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(176,16): error C2670: CarService<CarDTO>::Print: функция-шаблон не может преобразовать параметр 1 из типа "std::vector<CarDTO,std::allocator<CarDTO>>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(197,16): error C2955: "CarService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5): message : см. объявление "CarService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(197,16): error C2670: CarService<CarDTO>::Update: функция-шаблон не может преобразовать параметр 1 из типа "std::vector<CarDTO,std::allocator<CarDTO>>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(207,16): error C2955: "CarService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5): message : см. объявление "CarService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(207,16): error C2670: CarService<CarDTO>::Print: функция-шаблон не может преобразовать параметр 1 из типа "std::vector<CarDTO,std::allocator<CarDTO>>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(209,8): error C2086: int num: переопределение
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(178): message : см. объявление "num"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(225,17): error C2955: "CarService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5): message : см. объявление "CarService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(225,17): error C2670: CarService<CarDTO>::Delete: функция-шаблон не может преобразовать параметр 1 из типа "std::vector<CarDTO,std::allocator<CarDTO>>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(232,16): error C2955: "CarService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5): message : см. объявление "CarService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(232,16): error C2670: CarService<CarDTO>::Print: функция-шаблон не может преобразовать параметр 1 из типа "std::vector<CarDTO,std::allocator<CarDTO>>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(247,31): error C2955: "UserService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5): message : см. объявление "UserService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(249,40): error C2955: "UserService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5): message : см. объявление "UserService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(249,46): error C2440: инициализация: невозможно преобразовать "std::vector<T1,std::allocator<_Ty>>" в "std::vector<UserDTO,std::allocator<UserDTO>>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(249,25): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(266,17): error C2955: "UserService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5): message : см. объявление "UserService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(266,17): error C2670: UserService<UserDTO>::Print: функция-шаблон не может преобразовать параметр 1 из типа "std::vector<UserDTO,std::allocator<UserDTO>>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(274,17): error C2955: "UserService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5): message : см. объявление "UserService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(274,17): error C2670: UserService<UserDTO>::Print: функция-шаблон не может преобразовать параметр 1 из типа "std::vector<UserDTO,std::allocator<UserDTO>>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(292,18): error C2955: "UserService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5): message : см. объявление "UserService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(292,18): error C2670: UserService<UserDTO>::Delete: функция-шаблон не может преобразовать параметр 1 из типа "std::vector<UserDTO,std::allocator<UserDTO>>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(304,17): error C2955: "UserService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5): message : см. объявление "UserService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(304,17): error C2670: UserService<UserDTO>::Print: функция-шаблон не может преобразовать параметр 1 из типа "std::vector<UserDTO,std::allocator<UserDTO>>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(311,17): error C2955: "UserService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5): message : см. объявление "UserService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(311,17): error C2670: UserService<UserDTO>::MakeAdmin: функция-шаблон не может преобразовать параметр 1 из типа "std::vector<UserDTO,std::allocator<UserDTO>>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(393,31): error C2955: "UserService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5): message : см. объявление "UserService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(395,37): error C2955: "CarService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5): message : см. объявление "CarService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(395,43): error C2440: инициализация: невозможно преобразовать "std::vector<T1,std::allocator<_Ty>>" в "std::vector<CarDTO,std::allocator<CarDTO>>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(395,23): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(416,24): error C2955: "UserService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5): message : см. объявление "UserService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(431,16): error C2955: "CarService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5): message : см. объявление "CarService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(431,16): error C2670: CarService<CarDTO>::Print: функция-шаблон не может преобразовать параметр 1 из типа "std::vector<CarDTO,std::allocator<CarDTO>>"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(214,8): error C2086: int num: переопределение
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Menu.cpp(183): message : см. объявление "num"
   OrderDAO.cpp
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(21): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "BaseService<T1>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,31): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,23): error C2923: BaseDAO: "CarDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,16): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,28): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(4,63): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2955: "BaseService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,32): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,24): error C2923: BaseDAO: "UserDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,16): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,28): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,30): error C2504: BaseDAO: не определен базовый класс
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,30): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,7): error C3668: CarDAO::Create: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,17): error C3668: CarDAO::Read: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(10,7): error C3668: CarDAO::Update: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,31): error C2504: BaseDAO: не определен базовый класс
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,31): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,7): error C3668: UserDAO::Create: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,18): error C3668: UserDAO::Read: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(10,7): error C3668: UserDAO::Update: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.cpp(7,222): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "tm" (или приемлемое преобразование отсутствует)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(465,39): message : может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(440,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(422,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(404,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(386,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(368,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(350,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(332,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(314,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(295,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(269,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(250,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(216,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(198,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(193,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(188,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(183,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.cpp(7,222): message : при попытке сопоставить список аргументов "(std::basic_ostream<char,std::char_traits<char>>, tm)"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.cpp(49,25): error C2664: "void OrderDTO::SetDate(tm)": невозможно преобразовать аргумент 1 из "time_t" в "tm"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.cpp(49,25): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDTO.h(31,7): message : см. объявление "OrderDTO::SetDate"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.cpp(63,277): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "tm" (или приемлемое преобразование отсутствует)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(465,39): message : может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(440,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(422,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(404,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(386,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(368,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(350,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(332,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(314,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(295,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(269,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(250,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(216,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(198,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(193,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(188,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(183,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.cpp(63,277): message : при попытке сопоставить список аргументов "(std::basic_ostream<char,std::char_traits<char>>, tm)"
+  OrderDTO.cpp
   OrderService.cpp
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(21): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "BaseService<T1>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,31): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,23): error C2923: BaseDAO: "CarDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,16): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,28): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,33): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,25): error C2923: BaseDAO: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,16): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,28): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,32): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,24): error C2923: BaseDAO: "UserDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,16): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,28): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(4,63): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2955: "BaseService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(9,25): error C2440: return: невозможно преобразовать "std::vector" в "std::vector<OrderDTO,std::allocator<OrderDTO>>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(9,2): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(20,25): error C2664: "void OrderDAO::Update(std::vector)": невозможно преобразовать аргумент 1 из "std::vector<OrderDTO,std::allocator<OrderDTO>>" в "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(20,19): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,14): message : см. объявление "OrderDAO::Update"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5,38): error C2504: BaseService: не определен базовый класс
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5,38): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5,39): error C2504: BaseService: не определен базовый класс
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5,39): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(100,20): error C3867: "OrderService::printLine": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(104,23): error C3867: "OrderService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(104,71): error C3867: "OrderService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(104,99): error C3867: "OrderService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(104,135): error C3867: "OrderService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(104,167): error C3867: "OrderService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(105,34): error C3867: "OrderService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(105,64): error C3867: "OrderService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(111,20): error C3867: "OrderService::printLine": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(121,24): error C3867: "OrderService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(121,61): error C3867: "OrderService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(121,100): error C3867: "OrderService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(121,142): error C3867: "OrderService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(122,41): error C3867: "OrderService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(122,81): error C3867: "OrderService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(122,120): error C3867: "OrderService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.cpp(127,21): error C3867: "OrderService::printLine": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
   RegistrationDTO.cpp
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(21): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "BaseService<T1>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,31): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,23): error C2923: BaseDAO: "CarDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,16): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,28): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,33): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,25): error C2923: BaseDAO: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,16): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,28): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(4,63): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2955: "BaseService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,32): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,24): error C2923: BaseDAO: "UserDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,16): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,28): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
   User.cpp
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\User.cpp(74,1): error C2084: функция "void User::SetRole(bool)" уже имеет текст реализации
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\User.cpp(68): message : см. предыдущее определение "SetRole"
   UserDAO.cpp
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(21): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "BaseService<T1>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,31): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,23): error C2923: BaseDAO: "CarDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,16): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,28): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,33): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,25): error C2923: BaseDAO: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,16): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,28): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(4,63): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2955: "BaseService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,30): error C2504: BaseDAO: не определен базовый класс
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,30): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,7): error C3668: CarDAO::Create: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,17): error C3668: CarDAO::Read: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(10,7): error C3668: CarDAO::Update: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(5,32): error C2504: BaseDAO: не определен базовый класс
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(5,32): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,7): error C3668: OrderDAO::Create: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,19): error C3668: OrderDAO::Read: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(10,7): error C3668: OrderDAO::Update: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.cpp(7,154): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "tm" (или приемлемое преобразование отсутствует)
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(465,39): message : может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(440,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
@@ -780,13 +164,9 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(188,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))"
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(183,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.cpp(7,154): message : при попытке сопоставить список аргументов "(std::basic_ostream<char,std::char_traits<char>>, tm)"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.cpp(14,30): error C2955: "UserService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5): message : см. объявление "UserService"
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.cpp(44,32): error C2664: "void UserDTO::SetBirthday(tm)": невозможно преобразовать аргумент 1 из "time_t" в "tm"
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.cpp(44,32): message : Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDTO.h(24,7): message : см. объявление "UserDTO::SetBirthday"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.cpp(55,30): error C2955: "UserService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5): message : см. объявление "UserService"
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.cpp(61,37): error C2679: бинарный "<<": не найден оператор, принимающий правый операнд типа "tm" (или приемлемое преобразование отсутствует)
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(465,39): message : может быть "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)"
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(440,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)"
@@ -807,317 +187,89 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\ostream(183,39): message : или       "std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))"
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.cpp(61,37): message : при попытке сопоставить список аргументов "(std::basic_ostream<char,std::char_traits<char>>, tm)"
   UserDTO.cpp
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(21): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "BaseService<T1>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,31): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,23): error C2923: BaseDAO: "CarDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,32): error C2065: UserDTO: необъявленный идентификатор
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,24): error C2923: BaseDAO: "UserDTO" не является допустимым аргументом типа шаблон для параметра "T1"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5): message : см. объявление "UserDTO"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(6,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,16): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,28): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,33): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,25): error C2923: BaseDAO: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,16): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,28): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(4,63): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2955: "BaseService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,32): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,24): error C2923: BaseDAO: "UserDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,16): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,28): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,14): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,9): error C2065: UserDTO: необъявленный идентификатор
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,2): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,2): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(10,21): error C2065: UserDTO: необъявленный идентификатор
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(10,14): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(10): message : см. объявление "UserDTO"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(10,14): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,7): error C3668: UserDAO::Create: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,18): error C3668: UserDAO::Read: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(10,7): error C3668: UserDAO::Update: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5,40): error C2065: UserDTO: необъявленный идентификатор
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5,28): error C2923: BaseService: "UserDTO" не является допустимым аргументом типа шаблон для параметра "T1"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(5): message : см. объявление "UserDTO"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(6,1): error C2955: "BaseService": для использования класс шаблон требуется список аргументов шаблон
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(10,27): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(13,14): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(14,9): error C2065: UserDTO: необъявленный идентификатор
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(14,2): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(14): message : см. объявление "UserDTO"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(14,2): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(15,21): error C2065: UserDTO: необъявленный идентификатор
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(15,14): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(15): message : см. объявление "UserDTO"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(15,14): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(16,21): error C2065: UserDTO: необъявленный идентификатор
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(16,14): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(16): message : см. объявление "UserDTO"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(16,14): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(17,9): error C2143: синтаксическая ошибка: отсутствие ";" перед "*"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(17,9): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(17,31): error C2238: непредвиденные лексемы перед ";"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(19,21): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(20,24): error C2065: UserDTO: необъявленный идентификатор
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(20,17): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(20): message : см. объявление "UserDTO"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(20,17): error C2976: std::vector: слишком мало аргументов шаблон
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(26,27): error C2065: UserDTO: необъявленный идентификатор
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(26,20): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(26): message : см. объявление "UserDTO"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.h(26,20): error C2976: std::vector: слишком мало аргументов шаблон
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
   UserService.cpp
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(21): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "BaseService<T1>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,31): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,23): error C2923: BaseDAO: "CarDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,16): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,28): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,33): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,25): error C2923: BaseDAO: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,16): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,28): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(4,63): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2955: "BaseService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,32): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,24): error C2923: BaseDAO: "UserDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,16): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,28): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(148,23): error C2660: UserDAO::Create: функция не принимает 1 аргументов
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(7,14): message : см. объявление "UserDAO::Create"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(82,7): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(109,8): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(155,24): error C2440: return: невозможно преобразовать "std::vector" в "std::vector<T1,std::allocator<T1>>"
-          with
-          [
-              T1=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(155,2): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(166,23): error C2664: "void UserDAO::Update(std::vector)": невозможно преобразовать аргумент 1 из "std::vector<T1,std::allocator<T1>>" в "std::vector"
-          with
-          [
-              T1=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(166,18): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,14): message : см. объявление "UserDAO::Update"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(199,23): error C2664: "void UserDAO::Update(std::vector)": невозможно преобразовать аргумент 1 из "std::vector<T1,std::allocator<T1>>" в "std::vector"
-          with
-          [
-              T1=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(199,18): message : Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,14): message : см. объявление "UserDAO::Update"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(276,20): error C3867: "BaseService<UserDTO>::printLine": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(280,23): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(280,71): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(280,99): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(280,135): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(280,171): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(281,47): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(281,79): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(281,113): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(287,20): error C3867: "BaseService<UserDTO>::printLine": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(299,21): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(304,24): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(304,60): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(304,98): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(304,139): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(305,41): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(305,65): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(305,104): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(306,23): error C3867: "BaseService<UserDTO>::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(311,21): error C3867: "BaseService<UserDTO>::printLine": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
-          with
-          [
-              UserDTO=UserDTO
-          ]
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5,38): error C2504: BaseService: не определен базовый класс
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarService.h(5,38): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,40): error C2504: BaseService: не определен базовый класс
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,40): error C2143: синтаксическая ошибка: отсутствие "," перед "<"
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(8,7): error C3668: OrderService::Create: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(9,19): error C3668: OrderService::Read: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(10,7): error C3668: OrderService::Update: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(11,7): error C3668: OrderService::Delete: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(12,12): error C3668: OrderService::ReadSpecific: метод со спецификатором переопределения "override" не переопределяет какие-либо методы базового класса
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(281,20): error C3867: "UserService::printLine": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(285,23): error C3867: "UserService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(285,71): error C3867: "UserService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(285,99): error C3867: "UserService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(285,135): error C3867: "UserService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(285,171): error C3867: "UserService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(286,47): error C3867: "UserService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(286,79): error C3867: "UserService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(292,20): error C3867: "UserService::printLine": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(302,24): error C3867: "UserService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(302,60): error C3867: "UserService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(302,98): error C3867: "UserService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(302,139): error C3867: "UserService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(303,41): error C3867: "UserService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(303,65): error C3867: "UserService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(303,104): error C3867: "UserService::printContent": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
+D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserService.cpp(308,21): error C3867: "UserService::printLine": нестандартный синтаксис; используйте "&", чтобы создать указатель на член
   Validator.cpp
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(21): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "BaseService<T1>"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(19,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,17): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2433: BaseService<T1>::ostream: "virtual" не разрешается для объявлений данных
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(20,1): error C2238: непредвиденные лексемы перед ";"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,31): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4,23): error C2923: BaseDAO: "CarDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(4): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,16): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,28): error C2065: CarDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2923: std::vector: "CarDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9): message : см. объявление "CarDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\CarDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,33): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4,25): error C2923: BaseDAO: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(4): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,16): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,28): error C2065: OrderDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2923: std::vector: "OrderDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9): message : см. объявление "OrderDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(4,63): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2977: BaseService: слишком много аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\OrderService.h(5,1): error C2955: "BaseService": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseService.h(7): message : см. объявление "BaseService"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,32): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4,24): error C2923: BaseDAO: "UserDTO" не является допустимым аргументом типа шаблон для параметра "T1"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(4): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(5,1): error C2955: "BaseDAO": для использования класс шаблон требуется список аргументов шаблон
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\BaseDAO.h(6): message : см. объявление "BaseDAO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(7,21): error C2061: синтаксическая ошибка: идентификатор "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,16): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(8,9): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,28): error C2065: UserDTO: необъявленный идентификатор
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2923: std::vector: "UserDTO" не является допустимым аргументом типа шаблон для параметра "_Ty"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9): message : см. объявление "UserDTO"
-D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\UserDAO.h(9,21): error C2976: std::vector: слишком мало аргументов шаблон
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\vector(443): message : см. объявление "std::vector"
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Validator.cpp(7,16): warning C4129: .: неизвестная escape-последовательность
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Validator.cpp(19,16): warning C4129: d: неизвестная escape-последовательность
 D:\Уник\2 курс\ООП\КУРСАЧ\kursovoy\Validator.cpp(19,16): warning C4129: W: неизвестная escape-последовательность

@@ -1,8 +1,8 @@
 #include "UserService.h"
 
-void UserService<UserDTO>::Create()
+void UserService::Create(UserDTO usDTO)
 {
-	UserDTO usDTO;
+	UserDAO usDAO;
 
 	int id;
 	string name;
@@ -79,7 +79,7 @@ void UserService<UserDTO>::Create()
 	cout << "Введите пароль: ";
 	do
 	{
-		p = getch();
+		p = _getch();
 
 		if (p == 13) break;
 		if (p == '\b' && !password.empty())
@@ -106,7 +106,7 @@ void UserService<UserDTO>::Create()
 
 		do
 		{
-			p = getch();
+			p = _getch();
 
 			if (p == 13) break;
 			if (p == '\b' && !password.empty())
@@ -145,33 +145,36 @@ void UserService<UserDTO>::Create()
 
 	system("cls");
 
-	UserDAO::Create(usDTO);
+	usDAO.Create(usDTO);
 
 	cout << "Вы успешно зарегестрировались " << name << "! Войдите в свой аккаунт." << endl;
 }
 
-vector<UserDTO> UserService<UserDTO>::Read()
+vector<UserDTO> UserService::Read()
 {
-	return UserDAO::Read();
+	UserDAO usDAO;
+	return usDAO.Read();
 }
 
-void UserService<UserDTO>::Update(UserDTO* obj)
+void UserService::Update(vector<UserDTO> users, int idOfUser, int numOfField)
 {
 }
 
-void UserService<UserDTO>::Delete(vector<UserDTO> users, int idOfUser)
+void UserService::Delete(vector<UserDTO> users, int idOfUser)
 {
+	UserDAO usDAO;
+
 	users.erase(users.begin() + idOfUser);
 
-	UserDAO::Update(users);
+	usDAO.Update(users);
 }
 
-UserDTO UserService<UserDTO>::ReadSpecific(int id)
+UserDTO* UserService::ReadSpecific(int id)
 {
 	//return UserService*();
 }
 
-void UserService<UserDTO>::Authorization(UserDTO& auth)
+void UserService::Authorization(UserDTO& auth)
 {
 	string login;
 	string password;
@@ -192,14 +195,16 @@ void UserService<UserDTO>::Authorization(UserDTO& auth)
 		 cout << "Неправильно введены логин или пароль!" << endl;
 }
 
-void UserService<UserDTO>::MakeAdmin(vector<UserDTO> users, int idOfUser)
+void UserService::MakeAdmin(vector<UserDTO> users, int idOfUser)
 {
+	UserDAO usDAO;
+
 	users[idOfUser].SetRole(true);
 
-	UserDAO::Update(users);
+	usDAO.Update(users);
 }
 
-int UserService<UserDTO>::CountNumOfStr()
+int UserService::CountNumOfStr()
 {
 	int numOfLines = 0;
 
@@ -220,7 +225,7 @@ int UserService<UserDTO>::CountNumOfStr()
 	return numOfLines;
 }
 
-int UserService<UserDTO>::GetLastId()
+int UserService::GetLastId()
 {
 	int lastId[3];
 
@@ -236,7 +241,7 @@ int UserService<UserDTO>::GetLastId()
 	return lastId[0];
 }
 
-void UserService<UserDTO>::UpdateLastId(int newId)
+void UserService::UpdateLastId(int newId)
 {
 	int lastId[3];
 
@@ -261,12 +266,12 @@ void UserService<UserDTO>::UpdateLastId(int newId)
 	fout.close();
 }
 
-void UserService<UserDTO>::EncryptPassword(string& password)
+void UserService::EncryptPassword(string& password)
 {
 
 }
 
-void UserService<UserDTO>::Print(vector<UserDTO> users)
+void UserService::Print(vector<UserDTO> users)
 {
 	int numOfStr = UserService::CountNumOfStr();
 
@@ -278,7 +283,7 @@ void UserService<UserDTO>::Print(vector<UserDTO> users)
 	cout << endl;
 
 	cout << printContent << "Идентификатор" << printContent << "Имя" << printContent << "Фамилия" << printContent << "Телефон" << printContent <<
-		"День рождения" << printContent << "Логин" << printContent << "Пароль" << printContent << "Роль";
+		"День рождения" << printContent << "Логин" << printContent << "Роль";
 	cout << "|" << endl;
 
 	cout << "+";
@@ -294,16 +299,8 @@ void UserService<UserDTO>::Print(vector<UserDTO> users)
 		string date = d.tm_wday + " " + d.tm_mon;
 		date += " " + d.tm_year;
 
-		string pass = users[i].GetPassword();
-		string p;
-		for (int i = 0; i < pass.size(); i++)
-		{
-			p += "*";
-		}
-
 		cout << printContent << users[i].GetId() << printContent << users[i].GetName() << printContent << users[i].GetSurname() << printContent <<
-				users[i].GetPhone() << printContent << date << printContent << users[i].GetLogin() << printContent <<
-				p << printContent << users[i].GetRole();
+				users[i].GetPhone() << printContent << date << printContent << users[i].GetLogin() << printContent << users[i].GetRole();
 		cout << "|" << endl;
 		cout << "+";
 		for (int j = 0; j < 8; j++)
@@ -314,9 +311,24 @@ void UserService<UserDTO>::Print(vector<UserDTO> users)
 	}
 }
 
-bool UserService<UserDTO>::CompareLogin(string login)
+ostream& UserService::printLine(ostream& stream)
 {
-	vector<UserDTO> users = Read();
+	stream << "-------------+";
+	return stream;
+}
+
+ostream& UserService::printContent(ostream& stream)
+{
+	stream.setf(ios::right);
+	stream << "|" << setw(13) << setfill(' ');
+	return stream;
+}
+
+bool UserService::CompareLogin(string login)
+{
+	UserService us;
+
+	vector<UserDTO> users = us.Read();
 
 	int numOfStr = UserService::CountNumOfStr();
 
@@ -331,9 +343,11 @@ bool UserService<UserDTO>::CompareLogin(string login)
 	return result;
 }
 
-bool UserService<UserDTO>::CompareLoginAndPassword(string login, string password)
+bool UserService::CompareLoginAndPassword(string login, string password)
 {
-	vector<UserDTO> users =Read();
+	UserService us;
+
+	vector<UserDTO> users = us.Read();
 
 	int numOfStr = UserService::CountNumOfStr();
 	int id = -1;
@@ -358,7 +372,7 @@ bool UserService<UserDTO>::CompareLoginAndPassword(string login, string password
 
 	return result;
 }
-bool UserService<UserDTO>::CheckIsAdmin(UserDTO obj)
+bool UserService::CheckIsAdmin(UserDTO obj)
 {
 	bool result = false;
 

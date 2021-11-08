@@ -4,7 +4,7 @@ OrderDTO::OrderDTO()
 {
 }
 
-OrderDTO::OrderDTO(double cost, int idUser, string name, string surname, int idCar, string brand, string model, time_t date)
+OrderDTO::OrderDTO(double cost, int idUser, string name, string surname, int idCar, string brand, string model, tm date)
 {
     this->cost = cost;
     this->idUser = idUser;
@@ -13,7 +13,9 @@ OrderDTO::OrderDTO(double cost, int idUser, string name, string surname, int idC
     this->idCar = idCar;
     this->brand = brand;
     this->model = model;
-    this->date = date;
+    this->date.tm_mday = date.tm_mday;
+    this->date.tm_mon = date.tm_mon;
+    this->date.tm_year = date.tm_year;
 }
 
 OrderDTO::OrderDTO(const OrderDTO& order)
@@ -25,7 +27,9 @@ OrderDTO::OrderDTO(const OrderDTO& order)
     this->idCar = order.idCar;
     this->brand = order.brand;
     this->model = order.model;
-    this->date = order.date;
+    this->date.tm_mday = order.date.tm_mday;
+    this->date.tm_mon = order.date.tm_mon;
+    this->date.tm_year = order.date.tm_year;
 }
 
 void OrderDTO::SetId(int id)
@@ -68,9 +72,11 @@ void OrderDTO::SetModel(string model)
     this->model = model;
 }
 
-void OrderDTO::SetDate(time_t date)
+void OrderDTO::SetDate(tm date)
 {
-    this->date = date;
+    this->date.tm_mday = date.tm_mday;
+    this->date.tm_mon = date.tm_mon;
+    this->date.tm_year = date.tm_year;
 }
 
 int OrderDTO::GetId()
@@ -113,7 +119,7 @@ string OrderDTO::GetModel()
     return this->model;
 }
 
-time_t OrderDTO::GetDate()
+tm OrderDTO::GetDate()
 {
     return this->date;
 }

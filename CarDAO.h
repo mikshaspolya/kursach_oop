@@ -1,11 +1,12 @@
 #pragma once
 #include "BaseDAO.h"
+#include "CarDTO.h"
 
 class CarDAO : public BaseDAO<CarDTO>
 {
 public:
-	static void Create(CarDTO obj);
-	static vector<CarDTO> Read();
-	static void Update(vector<CarDTO> cars);
+	void Create(CarDTO obj) override;
+	vector<CarDTO> Read() override;
+	void Update(vector<CarDTO> cars) override;
 };
 

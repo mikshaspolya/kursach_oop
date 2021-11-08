@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#include<string>
+#include <string>
 using namespace std;
 
 class OrderDTO
@@ -13,11 +13,11 @@ class OrderDTO
 	int idCar;
 	string brand;
 	string model;
-	time_t date;
+	tm date;
 
 public:
 	OrderDTO();
-	OrderDTO(double cost, int idUser, string name, string surname, int idCar, string brand, string model, time_t date);
+	OrderDTO(double cost, int idUser, string name, string surname, int idCar, string brand, string model, tm date);
 	OrderDTO(const OrderDTO& order);
 
 	void SetId(int id);
@@ -28,7 +28,7 @@ public:
 	void SetIdCar(int idCar);
 	void SetBrand(string brand);
 	void SetModel(string model);
-	void SetDate(time_t date);
+	void SetDate(tm date);
 
 	int GetId();
 	double GetCost();
@@ -38,6 +38,6 @@ public:
 	int GetIdCar();
 	string GetBrand();
 	string GetModel();
-	time_t GetDate();
+	tm GetDate();
 };
 

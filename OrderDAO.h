@@ -1,12 +1,13 @@
 #pragma once
-#include "Libraries.h"
+#include "BaseDAO.h"
+#include "OrderDTO.h"
 
 class OrderDAO : public BaseDAO<OrderDTO>
 {
 public:
-	static void Create(OrderDTO obj);
-	static vector<OrderDTO> Read();
-	static void Update(vector<OrderDTO>);
+	void Create(OrderDTO obj) override;
+	vector<OrderDTO> Read() override;
+	void Update(vector<OrderDTO>) override;
 };
 
 

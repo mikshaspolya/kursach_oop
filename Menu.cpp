@@ -5,6 +5,7 @@ void MainMenu()
 	int mainMenuInput;
 
 	UserDTO us;
+	UserService usS;
 
 	string login, password;
 	do {
@@ -21,11 +22,11 @@ void MainMenu()
 		switch (mainMenuInput)
 		{
 		case 1:
-			UserService::Authorization(us);
+			usS.Authorization(us);
 			break;
 
 		case 2:
-			UserService::Create();
+			usS.Create(us);
 			break;
 		}
 	} while (mainMenuInput != 3);
@@ -33,6 +34,8 @@ void MainMenu()
 
 void MenuAdmin(int id)
 {
+	UserService usS;
+
 	int adminInput;
 	do
 	{
@@ -64,7 +67,7 @@ void MenuAdmin(int id)
 			break;
 
 		case 4:
-			UserService::ReadSpecific(id);
+			usS.ReadSpecific(id);
 
 			//Print
 			break;
@@ -78,13 +81,15 @@ void MenuAdmin(int id)
 
 void MenuCars()
 {
+	CarService carS;
+
 	int menuCarsInput = 0, addCarInput = 0, clearFileInput = 0;
 
 	do
 	{
 		int numOfStr = CarService::CountNumOfStr();
 
-		vector<CarDTO> cars = CarService::Read();
+		vector<CarDTO> cars = carS.Read();
 
 		CarDTO carDTO;
 
@@ -160,7 +165,7 @@ void MenuCars()
 
 			CarService::UpdateLastId(++id);
 
-			CarService::Create(carDTO);
+			carS.Create(carDTO);
 
 			system("cls");
 
@@ -194,7 +199,7 @@ void MenuCars()
 			cin >> fieldChoice;
 			Validator::Check<int>(fieldChoice, 1, 7);
 
-			CarService::Update(cars, --num, fieldChoice);
+			carS.Update(cars, --num, fieldChoice);
 
 			cout << "Автомобиль успешно отредактирован!" << endl;
 			break;
@@ -222,7 +227,7 @@ void MenuCars()
 
 			if (sureChoice == 1)
 			{
-				CarService::Delete(cars, --num);
+				carS.Delete(cars, --num);
 				cout << "Автомобиль был успешно удален!" << endl;
 			}
 
@@ -240,13 +245,15 @@ void MenuCars()
 
 void MenuUsers()
 {
+	UserService usS;
+
 	int menuUsersInput, delUserInput;
 
 	do
 	{
 		int numOfStr = UserService::CountNumOfStr();
 
-		vector<UserDTO> users = UserService::Read();
+		vector<UserDTO> users = usS.Read();
 
 		cout << "===== Меню для работы с информацией о пользователях =====" << endl;
 		cout << "1. Просмотреть всех пользователей" << endl;
@@ -289,7 +296,7 @@ void MenuUsers()
 
 			if (sureChoice == 1)
 			{
-				UserService::Delete(users, --num);
+				usS.Delete(users, --num);
 				cout << "Пользователь был успешно удален!" << endl;
 			}
 
@@ -308,7 +315,7 @@ void MenuUsers()
 
 			Validator::Check<int>(numOfUser, 1, --numOfStr);
 
-			UserService::MakeAdmin(users, --numOfUser);
+			usS.MakeAdmin(users, --numOfUser);
 
 			break;
 		}
@@ -317,13 +324,15 @@ void MenuUsers()
 
 void MenuOrders()
 {
+	OrderService orS; //!!!!!!!!!!!!!!!!!!!!
+
 	int menuOrdersInput;
 
 	do
 	{
 		int numOfStr = OrderService::CountNumOfStr();
 
-		vector<OrderDTO> orders = OrderService::Read();
+		vector<OrderDTO> orders = orS.Read();
 
 		cout << "===== Меню для работы с информацией о заказах =====" << endl;
 		cout << "1. Просмотреть все заказы" << endl;
@@ -365,7 +374,7 @@ void MenuOrders()
 
 			if (sureChoice == 1)
 			{
-				OrderService::Delete(orders, --num);
+				orS.Delete(orders, --num);
 				cout << "Заказ был успешно удален!" << endl;
 			}
 
@@ -386,15 +395,18 @@ void MenuOrdersSort();
 
 void MenuUser(int id)
 {
+	CarService carS;
+	UserService usS;
+
 	int userMenuInput;
 
 	do
 	{
 		int numOfStr = UserService::CountNumOfStr();
 
-		vector<CarDTO> cars = CarService::Read();
+		vector<CarDTO> cars = carS.Read();
 
-		UserDTO user;
+		UserDTO* user;
 
 		cout << "======== Меню пользователя ========" << endl;
 		cout << "1. Просмотреть информацию о себе" << endl;
@@ -413,15 +425,10 @@ void MenuUser(int id)
 		switch (userMenuInput)
 		{
 		case 1:
-			user = UserService::ReadSpecific(id);
+			user = usS.ReadSpecific(id);   //!!!!!!
 
 			//Print
 
-			/*cout << "ID\t" << "Login\t" << setw(9) << "\tName\t\t" << setw(11) << "Surname\t " << "Birthday\t   " << "Phone" << endl;
-
-			cout << setw(1) << me.id << "\t" << left << setw(10) << me.login << "\t" << left << setw(10)
-				<< me.name << "\t  " << left << setw(10) << me.surname << "\t " << left << me.birthday.day << "." << me.birthday.month << "."
-				<< me.birthday.year << "\t   " << me.phone << endl;*/
 			break;
 
 		case 2:

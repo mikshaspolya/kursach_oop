@@ -1,23 +1,26 @@
 #include "OrderService.h"
 
-void OrderService::Create()
+void OrderService::Create(OrderDTO obj)
 {
 }
 
 vector<OrderDTO> OrderService::Read()
 {
-	return OrderDAO::Read();
+	OrderDAO orDAO;
+	return orDAO.Read();
 }
 
-//void OrderService::Update(OrderDTO* obj)
-//{
-//}
+void OrderService::Update(vector<OrderDTO> orders, int idOfOrder, int numOfField)
+{
+}
 
 void OrderService::Delete(vector<OrderDTO> orderd, int idOfOrder)
 {
+	OrderDAO orDAO;
+
 	orderd.erase(orderd.begin() + idOfOrder);
 
-	OrderDAO::Update(orderd);
+	orDAO.Update(orderd);
 }
 
 OrderDTO* OrderService::ReadSpecific(int id)
@@ -89,4 +92,55 @@ void OrderService::UpdateLastId(int newId)
 
 void OrderService::Print(vector<OrderDTO> orders)
 {
+	int numOfStr = OrderService::CountNumOfStr();
+
+	cout << "+";
+	for (int j = 0; j < 7; j++)
+	{
+		cout << printLine;
+	}
+	cout << endl;
+
+	cout << printContent << "Идентификатор" << printContent << "Имя" << printContent << "Фамилия" << printContent << "Бренд" << printContent <<
+		"Модель" << printContent << "Цена" << printContent << "Дата покупки";
+	cout << "|" << endl;
+
+	cout << "+";
+	for (int j = 0; j < 7; j++)
+	{
+		cout << printLine;
+	}
+	cout << endl;
+
+	for (int i = 0; i < numOfStr - 1; i++)
+	{
+		tm d = orders[i].GetDate();
+		string date = d.tm_wday + " " + d.tm_mon;
+		date += " " + d.tm_year;
+
+		cout << printContent << orders[i].GetId() << printContent << orders[i].GetName() << printContent << orders[i].GetSurname() << printContent <<
+			orders[i].GetBrand() << printContent << orders[i].GetModel() << printContent << orders[i].GetCost() << printContent << date;
+		cout << "|" << endl;
+		cout << "+";
+		for (int j = 0; j < 7; j++)
+		{
+			cout << printLine;
+		}
+		cout << endl;
+	}
 }
+
+ostream& OrderService::printLine(ostream& stream)
+{
+	stream << "-------------+";
+	return stream;
+}
+
+ostream& OrderService::printContent(ostream& stream)
+{
+	stream.setf(ios::right);
+	stream << "|" << setw(13) << setfill(' ');
+	return stream;
+}
+
+

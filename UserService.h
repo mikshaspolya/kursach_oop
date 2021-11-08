@@ -1,7 +1,7 @@
 #pragma once
-#include "Libraries.h"
+#include "BaseService.h"
+#include "UserDTO.h"
 
-template <class UserDTO>
 class UserService : public BaseService<UserDTO>
 {
 private:
@@ -10,18 +10,22 @@ private:
 	static bool CheckIsAdmin(UserDTO obj);
 
 public:
-	static void Create();
-	static vector<UserDTO> Read();
-	static void Update(UserDTO* obj);
-	static void Delete(vector<UserDTO> users, int idOfUser);
-	static UserDTO ReadSpecific(int id);
-	static void Authorization(UserDTO& auth);
-	static void MakeAdmin(vector<UserDTO> users, int idOfUser);
+	void Create(UserDTO obj);
+	vector<UserDTO> Read();
+	void Update(vector<UserDTO> users, int idOfUser, int numOfField);
+	void Delete(vector<UserDTO> users, int idOfUser);
+	UserDTO* ReadSpecific(int id);
+
+	void Authorization(UserDTO& auth);
+	void MakeAdmin(vector<UserDTO> users, int idOfUser);
 
 	static int CountNumOfStr();
 	static int GetLastId();
 	static void UpdateLastId(int newId);
 	static void EncryptPassword(string& password);
 	static void Print(vector<UserDTO> users);
+
+	ostream& printLine(ostream& stream);
+	ostream& printContent(ostream& stream);
 };
 

@@ -1,19 +1,21 @@
 #include "CarService.h"
 
-//template<class CarDTO>
-void CarService<CarDTO>::Create(CarDTO obj)
+void CarService::Create(CarDTO obj)
 {
-	CarDAO::Create(obj);
+	CarDAO carDAO;
+	carDAO.Create(obj);
 }
 
-//template<class CarDTO>
-vector<CarDTO> CarService<CarDTO>::Read()
+vector<CarDTO> CarService::Read()
 {
-	return CarDAO::Read();
+	CarDAO carDAO;
+	return carDAO.Read();
 }
 
-void CarService<CarDTO>::Update(vector<CarDTO> cars, int idOfCar, int numOfField)
+void CarService::Update(vector<CarDTO> cars, int idOfCar, int numOfField)
 {
+	CarDAO carDAO;
+
 	string brand;
 	string model;
 	string color;
@@ -86,22 +88,24 @@ void CarService<CarDTO>::Update(vector<CarDTO> cars, int idOfCar, int numOfField
 		break;
 	}
 
-	CarDAO::Update(cars);
+	carDAO.Update(cars);
 }
 
-void CarService<CarDTO>::Delete(vector<CarDTO> cars, int idOfCar)
+void CarService::Delete(vector<CarDTO> cars, int idOfCar)
 {
+	CarDAO carDAO;
+
 	cars.erase(cars.begin() + idOfCar);
 
-	CarDAO::Update(cars);
+	carDAO.Update(cars);
 }
 
-CarDTO* CarService<CarDTO>::ReadSpecific(int id)
+CarDTO* CarService::ReadSpecific(int id)
 {
 	return nullptr;
 }
 
-int CarService<CarDTO>::CountNumOfStr()
+int CarService::CountNumOfStr()
 {
 	int numOfLines = 0;
 
@@ -122,7 +126,7 @@ int CarService<CarDTO>::CountNumOfStr()
 	return numOfLines;
 }
 
-int CarService<CarDTO>::GetLastId()
+int CarService::GetLastId()
 {
 	int lastId[3];
 
@@ -138,7 +142,7 @@ int CarService<CarDTO>::GetLastId()
 	return lastId[1];
 }
 
-void CarService<CarDTO>::UpdateLastId(int newId)
+void CarService::UpdateLastId(int newId)
 {
 	int lastId[3];
 
@@ -163,7 +167,7 @@ void CarService<CarDTO>::UpdateLastId(int newId)
 	fout.close();
 }
 
-void CarService<CarDTO>::Print(vector<CarDTO> cars)
+void CarService::Print(vector<CarDTO> cars)
 {
 	int numOfStr = CarService::CountNumOfStr();
 
@@ -200,15 +204,13 @@ void CarService<CarDTO>::Print(vector<CarDTO> cars)
 	}
 }
 
-template<class T1>
-inline ostream& BaseService<T1>::printLine(ostream& stream)
+ostream& CarService::printLine(ostream& stream)
 {
 	stream << "-------------+";
 	return stream;
 }
 
-template<class T1>
-inline ostream& BaseService<T1>::printContent(ostream& stream)
+ostream& CarService::printContent(ostream& stream)
 {
 	stream.setf(ios::right);
 	stream << "|" << setw(13) << setfill(' ');
