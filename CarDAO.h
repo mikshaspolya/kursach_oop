@@ -1,6 +1,5 @@
 #pragma once
 #include "BaseDAO.h"
-#include "CarDTO.h"
 
 class CarDAO : public BaseDAO<CarDTO>
 {

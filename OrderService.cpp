@@ -97,34 +97,34 @@ void OrderService::Print(vector<OrderDTO> orders)
 	cout << "+";
 	for (int j = 0; j < 7; j++)
 	{
-		cout << printLine;
+		cout << &printLine;
 	}
 	cout << endl;
 
-	cout << printContent << "Идентификатор" << printContent << "Имя" << printContent << "Фамилия" << printContent << "Бренд" << printContent <<
-		"Модель" << printContent << "Цена" << printContent << "Дата покупки";
+	cout << &printContent << "Идентификатор" << &printContent << "Имя" << &printContent << "Фамилия" << &printContent << "Бренд" << &printContent <<
+		"Модель" << &printContent << "Цена" << &printContent << "Дата покупки";
 	cout << "|" << endl;
 
 	cout << "+";
 	for (int j = 0; j < 7; j++)
 	{
-		cout << printLine;
+		cout << &printLine;
 	}
 	cout << endl;
 
 	for (int i = 0; i < numOfStr - 1; i++)
 	{
 		tm d = orders[i].GetDate();
-		string date = d.tm_wday + " " + d.tm_mon;
+		string date = d.tm_mday + " " + d.tm_mon;
 		date += " " + d.tm_year;
 
-		cout << printContent << orders[i].GetId() << printContent << orders[i].GetName() << printContent << orders[i].GetSurname() << printContent <<
-			orders[i].GetBrand() << printContent << orders[i].GetModel() << printContent << orders[i].GetCost() << printContent << date;
+		cout << &printContent << orders[i].GetId() << &printContent << orders[i].GetName() << &printContent << orders[i].GetSurname() << &printContent <<
+			orders[i].GetBrand() << &printContent << orders[i].GetModel() << &printContent << orders[i].GetCost() << &printContent << date;
 		cout << "|" << endl;
 		cout << "+";
 		for (int j = 0; j < 7; j++)
 		{
-			cout << printLine;
+			cout << &printLine;
 		}
 		cout << endl;
 	}

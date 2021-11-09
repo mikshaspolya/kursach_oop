@@ -101,6 +101,8 @@ void MenuCars()
 		double cost;
 		int yearOfManufacturing;
 		string classOfAuto;
+
+		int num;
 		
 		cout << "===== Меню для работы с информацией об автомобилях =====" << endl;
 		cout << "1. Добавить автомобиль" << endl;
@@ -180,8 +182,6 @@ void MenuCars()
 
 			CarService::Print(cars);
 
-			int num;
-
 			cin >> num;
 			Validator::Check<int>(num, 1, --numOfStr);
 
@@ -210,8 +210,6 @@ void MenuCars()
 			cout << "Какой атвомобиль вы хотите удалить?" << endl;
 
 			CarService::Print(cars);
-
-			int num;
 
 			cin >> num;
 			Validator::Check<int>(num, 1, --numOfStr);

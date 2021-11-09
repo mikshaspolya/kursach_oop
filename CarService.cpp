@@ -174,31 +174,31 @@ void CarService::Print(vector<CarDTO> cars)
 	cout << "+";
 	for (int j = 0; j < 8; j++)
 	{
-		cout << printLine;
+		cout << &printLine;
 	}
 	cout << endl;
 
-	cout << printContent << "Идентификатор" << printContent << "Бренд" << printContent << "Модель" << printContent << "Цвет" << printContent <<
-		"Тип кузова" << printContent << "Цена ($)" << printContent << "Год пр-ва" << printContent << "Класс авто";
+	cout << &printContent << "Идентификатор" << &printContent << "Модель" << &printContent << "Цвет" << &printContent <<
+		"Тип кузова" << &printContent << "Цена ($)" << &printContent << "Год пр-ва" << &printContent << "Класс авто";
 	cout << "|" << endl;
 
 	cout << "+";
 	for (int j = 0; j < 8; j++)
 	{
-		cout << printLine;
+		cout << &printLine;
 	}
 	cout << endl;
 
 	for (int i = 0; i < numOfStr - 1; i++)
 	{
-		cout << printContent << cars[i].GetId() << printContent << cars[i].GetBrand() << printContent << cars[i].GetModel() << printContent << 
-				cars[i].GetColor() << printContent << cars[i].GetBodyType() << printContent << cars[i].GetCost() << printContent <<
-				cars[i].GetYearOfManufacturing() << printContent << cars[i].GetClassOfAuto();
+		cout << &printContent << cars[i].GetId() << &printContent << cars[i].GetBrand() << &printContent << cars[i].GetModel() << &printContent << 
+				cars[i].GetColor() << &printContent << cars[i].GetBodyType() << &printContent << cars[i].GetCost() << &printContent <<
+				cars[i].GetYearOfManufacturing() << &printContent << cars[i].GetClassOfAuto();
 		cout << "|" << endl;
 		cout << "+";
 		for (int j = 0; j < 8; j++)
 		{
-			cout << printLine;
+			cout << &printLine;
 		}
 		cout << endl;
 	}

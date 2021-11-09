@@ -1,5 +1,12 @@
 #pragma once
 #include "Libraries.h"
+#include "CarDTO.h"
+#include "UserDTO.h"
+#include "OrderDTO.h"
+#include "CarService.h"
+#include "UserService.h"
+#include "OrderService.h"
+
 
 template <class T1>
 class BaseDAO

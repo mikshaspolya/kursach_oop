@@ -2,9 +2,14 @@
 
 void UserDAO::Create(UserDTO obj)
 {
+	tm date = obj.GetBirthday();
+
+	string d = date.tm_mday + " " + date.tm_mon;
+	d += " " + date.tm_year;
+
 	ofstream fout(FILE_USERS, ios::app);
 
-	fout << obj.GetId() << " " << obj.GetLogin() << " " << obj.GetPassword() << " " << obj.GetName() << " " << obj.GetSurname() << " " << obj.GetBirthday() << " " << obj.GetPhone() << " " << obj.GetRole() << "\n";
+	fout << obj.GetId() << " " << obj.GetLogin() << " " << obj.GetPassword() << " " << obj.GetName() << " " << obj.GetSurname() << " " << d << " " << obj.GetPhone() << " " << obj.GetRole() << "\n";
 
 	fout.close();
 }
@@ -19,7 +24,7 @@ vector<UserDTO> UserDAO::Read()
 	string name;
 	string surname;
 	int phone;
-	time_t birthday;
+	tm birthday;
 	string login;
 	string password;
 	bool role;
@@ -32,7 +37,9 @@ vector<UserDTO> UserDAO::Read()
 		fin >> password;
 		fin >> name;
 		fin >> surname;
-		fin >> birthday;
+		fin >> birthday.tm_mday;
+		fin >> birthday.tm_mon;
+		fin >> birthday.tm_year;
 		fin >> phone;
 		fin >> role;
 
@@ -57,8 +64,13 @@ void UserDAO::Update(vector<UserDTO> users)
 	ofstream fout(FILE_USERS, ios::out);
 	for (int i = 0; i < numOfStr - 1; i++)
 	{
+		tm date = users[i].GetBirthday();
+
+		string d = date.tm_mday + " " + date.tm_mon;
+		d += " " + date.tm_year;
+
 		fout << users[i].GetId() << " " << users[i].GetLogin() << " " << users[i].GetPassword() << " " << users[i].GetName() << " " << users[i].GetSurname()
-			<< " " << users[i].GetBirthday() << " " << users[i].GetPhone() << " " << users[i].GetRole() << endl;
+			<< " " << d << " " << users[i].GetPhone() << " " << users[i].GetRole() << endl;
 	}
 	fout.close();
 }

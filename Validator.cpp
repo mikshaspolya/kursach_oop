@@ -4,7 +4,7 @@ bool Validator::CheckLogin(string login)
 {
 	bool res = false;
 
-	regex regular("^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$");
+	regex regular("(^[a-zA-Z][a-zA-Z0-9-_.]{1,20}$)");
 
 	if (regex_match(login.c_str(), regular))
 		res = true;
@@ -69,8 +69,7 @@ bool Validator::CheckPhone(int phone)
 {
 	bool res = false;
 
-	char* ph;
-	itoa(phone, ph, 10);
+	char* ph = (char*)phone;
 
 	regex regular("^[1-9]+[0-9]*$");
 

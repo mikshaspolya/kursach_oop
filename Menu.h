@@ -1,5 +1,12 @@
 #pragma once
 #include "Libraries.h"
+#include "CarDTO.h"
+#include "UserDTO.h"
+#include "OrderDTO.h"
+#include "CarService.h"
+#include "UserService.h"
+#include "OrderService.h"
+#include "Validator.h"
 
 void MainMenu();
 void MenuAdmin(int id);

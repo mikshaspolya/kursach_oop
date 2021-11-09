@@ -278,34 +278,34 @@ void UserService::Print(vector<UserDTO> users)
 	cout << "+";
 	for (int j = 0; j < 8; j++)
 	{
-		cout << printLine;
+		cout << &printLine;
 	}
 	cout << endl;
 
-	cout << printContent << "Идентификатор" << printContent << "Имя" << printContent << "Фамилия" << printContent << "Телефон" << printContent <<
-		"День рождения" << printContent << "Логин" << printContent << "Роль";
+	cout << &printContent << "Идентификатор" << &printContent << "Имя" << &printContent << "Фамилия" << &printContent << "Телефон" << &printContent <<
+		"День рождения" << &printContent << "Логин" << &printContent << "Роль";
 	cout << "|" << endl;
 
 	cout << "+";
 	for (int j = 0; j < 8; j++)
 	{
-		cout << printLine;
+		cout << &printLine;
 	}
 	cout << endl;
 
 	for (int i = 0; i < numOfStr - 1; i++)
 	{
 		tm d = users[i].GetBirthday();
-		string date = d.tm_wday + " " + d.tm_mon;
+		string date = d.tm_mday + " " + d.tm_mon;
 		date += " " + d.tm_year;
 
-		cout << printContent << users[i].GetId() << printContent << users[i].GetName() << printContent << users[i].GetSurname() << printContent <<
-				users[i].GetPhone() << printContent << date << printContent << users[i].GetLogin() << printContent << users[i].GetRole();
+		cout << &printContent << users[i].GetId() << &printContent << users[i].GetName() << &printContent << users[i].GetSurname() << &printContent <<
+				users[i].GetPhone() << &printContent << date << &printContent << users[i].GetLogin() << &printContent << users[i].GetRole();
 		cout << "|" << endl;
 		cout << "+";
 		for (int j = 0; j < 8; j++)
 		{
-			cout << printLine;
+			cout << &printLine;
 		}
 		cout << endl;
 	}

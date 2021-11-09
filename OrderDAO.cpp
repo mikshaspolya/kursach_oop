@@ -2,9 +2,14 @@
 
 void OrderDAO::Create(OrderDTO obj)
 {
+	tm date = obj.GetDate();
+	string d = date.tm_mday + " " + date.tm_mon;
+	d += " " + date.tm_year;
+
 	ofstream fout(FILE_ORDERS, ios::app);
 
-	fout << obj.GetId() << " " << obj.GetCost() << " " << obj.GetIdUser() << " " << obj.GetName() << " " << obj.GetSurname() << " " << obj.GetIdCar() << " " << obj.GetBrand() << " " << obj.GetModel() << " " << obj.GetDate() << "\n";
+	fout << obj.GetId() << " " << obj.GetCost() << " " << obj.GetIdUser() << " " << obj.GetName() << " " << obj.GetSurname() << " " << obj.GetIdCar() <<
+			" " << obj.GetBrand() << " " << obj.GetModel() << " " << d << "\n";
 
 	fout.close();
 }
@@ -23,7 +28,7 @@ vector<OrderDTO> OrderDAO::Read()
 	int idCar;
 	string brand;
 	string model;
-	time_t date;
+	tm date;
 
 	ifstream fin(FILE_USERS);
 
@@ -36,7 +41,9 @@ vector<OrderDTO> OrderDAO::Read()
 		fin >> cost;
 		fin >> brand;
 		fin >> model;
-		fin >> date;
+		fin >> date.tm_mday;
+		fin >> date.tm_mon;
+		fin >> date.tm_year;
 
 		orders[i].SetId(id);
 		orders[i].SetCost(cost);
@@ -60,7 +67,13 @@ void OrderDAO::Update(vector<OrderDTO> orders)
 	ofstream fout(FILE_ORDERS, ios::out);
 	for (int i = 0; i < numOfStr - 1; i++)
 	{
-		fout << orders[i].GetId() << " " << orders[i].GetCost() << " " << orders[i].GetIdUser() << " " << orders[i].GetName() << " " << orders[i].GetSurname() << " " << orders[i].GetIdCar() << " " << orders[i].GetBrand() << " " << orders[i].GetModel() << " " << orders[i].GetDate() << "\n";
+		tm date = orders[i].GetDate();
+		string d = date.tm_mday + " " + date.tm_mon;
+		d += " " + date.tm_year;
+
+		fout << orders[i].GetId() << " " << orders[i].GetCost() << " " << orders[i].GetIdUser() << " " << orders[i].GetName() << " " <<
+			orders[i].GetSurname() << " " << orders[i].GetIdCar() << " " << orders[i].GetBrand() << " " << orders[i].GetModel() << " " <<
+			d << "\n";
 	}
 	fout.close();
 }

@@ -70,11 +70,6 @@ void User::SetRole(bool role)
 	this->role = role;
 }
 
-void User::SetRole(bool role)
-{
-	this->role = role;
-}
-
 int User::GetId()
 {
 	return this->id;
